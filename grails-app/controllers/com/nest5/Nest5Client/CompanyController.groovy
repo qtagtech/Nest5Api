@@ -577,4 +577,88 @@ class CompanyController {
 
 
     }
+
+    /*FUNCIONES API NEST5BUSINESS
+    *
+    *
+    * */
+     /*HACER LOGIN DESDE APP DE ANDROID NEST5BUSINESS  OCTUBRE 29 DE 2013 JUANDA*/
+    def checkLogin(){
+        println params
+        def username = params.email?.trim()
+        def pass = params.password?.trim()
+        //println username+" "+pass
+        def result
+        if(!username || ! pass){
+            result = [status: 0,id: 0, email: "", name: "",phone: "", username: ""]
+            render result as JSON
+            return
+        }
+        def user = Company.findByUsername(username);
+        if(!user){
+            result = [status: 0,id: 0, email: "", name: "",phone: "", username: ""]
+            render result as JSON
+            return
+        }
+        def password = springSecurityService.encodePassword(pass)
+        if(password == user.password){
+            result = [status: 1,id: user.id, email: user.email, name: user.name, username: user.username]
+            render result as JSON
+            return
+        }
+        result = [status: 0,id: 0, email: "", name: "",phone: "", username: ""]
+        render result as JSON
+        return
+
+    }
+
+    /*Guardar registro de backup de base de datos en amazon s3 octubre 29 de 2013 Juanda*/
+
+    def saveDB(){
+        def ruta = "https://s3.amazonaws.com/com.nest5.businessClient"
+        def company = params.company?.trim()
+        def filename = params.file?.trim()
+        //println username+" "+pass
+        def result
+        if(!company || ! filename){
+            result = [status: 0]
+            render result as JSON
+            return
+        }
+        def user = Company.findById(company as Long)
+        if(!user){
+            result = [status: 0]
+            render result as JSON
+            return
+        }
+        def file = new FileCompany(
+               name: filename,
+                tipo: "database",
+                ruta: ruta+"/"+filename,
+                description: new Date().toTimestamp().toString()
+        )
+        if(!file.save(flush: true)){
+            result = [status: 0]
+            render result as JSON
+            return
+        }
+        def newmedia = new MediaCompany(
+                file: file,
+                company: user,
+                isMain: false
+        )
+        if(!newmedia.save(flush: true)){
+            println newmedia.errors.allErrors
+            //
+            result = [status: 0]
+            render result as JSON
+            return
+        }
+        result = [status: 1]
+        //
+        render result as JSON
+        return
+
+    }
+
 }

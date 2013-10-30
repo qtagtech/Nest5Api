@@ -17,6 +17,7 @@ class BootStrap {
         def apiRole = SecRole.findByAuthority('ROLE_API') ?: new SecRole(authority: 'ROLE_API').save(failOnError: true)
 
 
+
         def apiUser = User.findByUsername('apiadmin') ?: new User(
                 username: 'apiadmin',
                 password: 'zAxEE9U1691Nq0h5JiJ0X20tcayF5RTpmzIOctVGNQNBByHslznDR0VP7rWOuyW',
@@ -30,10 +31,12 @@ class BootStrap {
                 date: '1986/01/13').save(failOnError: true)
 
 
+         def compa  = Company.findByEmail("juanda6@gmail.com")
 
         if (!apiUser.authorities.contains(apiRole)) {
             SecUserSecRole.create apiUser, apiRole
         }
+
 
 
 

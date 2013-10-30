@@ -7,6 +7,7 @@ class FileCompany {
     String tipo
     String ruta
     String description
+    Date date = new Date()
 
 
     static constraints = {

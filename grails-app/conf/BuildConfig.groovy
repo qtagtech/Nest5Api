@@ -66,7 +66,6 @@ grails.project.dependency.resolution = {
         compile ':cloud-support:1.0.8'*/
         compile ':spring-security-core:1.2.7.3'
         compile ":mail:1.0.1"
-        compile ":qrcode:0.3"
 
     }
 }
