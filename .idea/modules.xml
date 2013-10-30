@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Nest5Api.iml" filepath="$PROJECT_DIR$/Nest5Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nest5Api-grailsPlugins.iml" filepath="$PROJECT_DIR$/Nest5Api-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
