@@ -214,7 +214,7 @@
       <file leaf-file-name="UserController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/UserController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="324" column="37" selection-start="12290" selection-end="12290" vertical-scroll-proportion="0.016304348">
+            <state line="324" column="37" selection-start="12290" selection-end="12290" vertical-scroll-proportion="0.01633987">
               <folding />
             </state>
           </provider>
@@ -688,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/UserController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="324" column="37" selection-start="12290" selection-end="12290" vertical-scroll-proportion="0.016304348">
+        <state line="324" column="37" selection-start="12290" selection-end="12290" vertical-scroll-proportion="0.01633987">
           <folding />
         </state>
       </provider>
