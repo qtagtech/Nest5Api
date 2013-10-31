@@ -31,22 +31,12 @@ class BootStrap {
                 referer: 'none',
                 date: '1986/01/13').save(failOnError: true)
 
-        def duUser = User.findByUsername('dummyUser') ?: new User(
-                username: 'dummyUser',
-                password: 'zAxEE9U1691Nq0h5JiJ0X20tcayF5RTpmzIOctVGNQNBByHslznDR0VP7rWOuyW',
-                enabled: true,
-                name : 'Nest5 Dummy User',
-                email: 'dummy@nest5.com',
-                smartphone: true,
-                smartphoneBrand: 'Android-Samsung',
-                phone: '3014597229',
-                referer: 'none',
-                date: '1986/01/13').save(failOnError: true)
 
 
 
 
-         def compa  = Company.findByEmail("juanda6@gmail.com")
+
+
 
         if (!apiUser.authorities.contains(apiRole)) {
             SecUserSecRole.create apiUser, apiRole

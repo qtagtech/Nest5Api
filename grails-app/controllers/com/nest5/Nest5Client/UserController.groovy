@@ -3,7 +3,6 @@ package com.nest5.Nest5Client
 import grails.converters.JSON
 import org.apache.commons.codec.binary.Base64
 import org.apache.commons.lang.RandomStringUtils
-import org.codehaus.groovy.grails.plugins.qrcode.QRCodeRenderer
 import org.codehaus.groovy.grails.plugins.springsecurity.SpringSecurityUtils
 import org.codehaus.groovy.grails.web.context.ServletContextHolder
 import grails.plugins.springsecurity.Secured

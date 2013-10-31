@@ -775,14 +775,15 @@ class CompanyController {
             return
         }
         def usuario = User.findByUsername(username?.trim()) ?: User.findByEmail(username?.trim())
-        def extended = ExtendedUser.findByUser(usuario)
+
         println usuario
         if(!usuario){
             result = [status: 0, message: "El Usuario parece que no existe."]
             render result as JSON
             return
         }
-        def userData = [id: usuario.id, name: usuario.name, picture: userService.userImageUrl(usuario), birthday: extended?.birthDate.toString(), originalCity: extended?.city, gender: extended?.gender]
+        def extended = ExtendedUser.findByUser(usuario)
+        def userData = [id: usuario.id, name: usuario.name, picture: userService.userImageUrl(usuario), birthday: extended?.birthDate.toString(), originalCity: extended?.city.name, gender: extended?.gender]
 
         /*def promos = []
         promoList.each{promo,it->
@@ -838,7 +839,8 @@ class CompanyController {
             return
         }
 
-        result = [status: 1, message: "", user: userData, promos: benefits]
+        result = [status: 1, message: "Exito", user: userData, promos: benefits]
+        println result
         render result as JSON
         return
 

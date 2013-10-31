@@ -2,7 +2,7 @@ package com.nest5.Nest5Client
 
 import grails.converters.JSON
 import grails.plugins.springsecurity.Secured
-import org.codehaus.groovy.grails.plugins.qrcode.QRCodeRenderer
+
 import org.springframework.dao.DataIntegrityViolationException
 
 class PromoController {
@@ -143,7 +143,7 @@ class PromoController {
             redirect(action: "show", id: params.id)
         }
     }
-    @Secured(["ROLE_COMPANY"])
+    /*@Secured(["ROLE_COMPANY"])
     def createQR() {
         def userInstance = springSecurityService.currentUser
         response.contentType = "image/png"
@@ -157,7 +157,7 @@ class PromoController {
         QRCodeRenderer qrcodeRenderer = new QRCodeRenderer()
         qrcodeRenderer.renderPng(offer.id.toString(), 400, outputStream)
 
-    }
+    }*/
     @Secured(["ROLE_COMPANY"])
     def createOffer()  {
         def store = Store.get(params.storeid)
