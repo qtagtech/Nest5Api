@@ -84,7 +84,7 @@ class CouponService {
 //        save stampCard event with the number of stamps the user has in the current offer and  the current store
         /*new event-> othercompany true, issatmp true, */
 
-        def stampType = EventType.findByCode("NEI001")
+       /* def stampType = EventType.findByCode("NEI001")
         def duUser = User.findByUsername("dummyNest5")
         println duUser.username
         def stampEvent = new Event(
@@ -121,7 +121,7 @@ class CouponService {
                     couponCount: savedCoupons.size(),
                     date: new Date()
             ).save(flush: true)
-        }
+        }*/
 
 
 

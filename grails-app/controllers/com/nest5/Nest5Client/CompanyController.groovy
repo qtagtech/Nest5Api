@@ -2,6 +2,7 @@ package com.nest5.Nest5Client
 
 import grails.converters.JSON
 import grails.plugins.springsecurity.Secured
+import org.apache.commons.lang.RandomStringUtils
 import org.springframework.dao.DataIntegrityViolationException
 
 class CompanyController {
@@ -617,28 +618,30 @@ class CompanyController {
     def saveDB(){
         def ruta = "https://s3.amazonaws.com/com.nest5.businessClient"
         def company = params.company?.trim()
-        def filename = params.file?.trim()
         //println username+" "+pass
         def result
-        if(!company || ! filename){
-            result = [status: 0]
+        if(!company){
+            result = [status: 0, name: ""]
             render result as JSON
             return
         }
         def user = Company.findById(company as Long)
         if(!user){
-            result = [status: 0]
+            result = [status: 0, name: ""]
             render result as JSON
             return
         }
+        String charset = (('A'..'Z') + ('0'..'9') + ('a'..'z') + '-' + '_').join()
+        Integer length = 64
+        String randomString = RandomStringUtils.random(length, charset.toCharArray())+'.db'
         def file = new FileCompany(
-               name: filename,
+               name: randomString,
                 tipo: "database",
-                ruta: ruta+"/"+filename,
+                ruta: ruta+"/"+randomString,
                 description: new Date().toTimestamp().toString()
         )
         if(!file.save(flush: true)){
-            result = [status: 0]
+            result = [status: 0, name: ""]
             render result as JSON
             return
         }
@@ -650,14 +653,196 @@ class CompanyController {
         if(!newmedia.save(flush: true)){
             println newmedia.errors.allErrors
             //
-            result = [status: 0]
+            result = [status: 0, name: ""]
             render result as JSON
             return
         }
-        result = [status: 1]
+        result = [status: 1, name: randomString]
         //
         render result as JSON
         return
+
+    }
+
+    /*Recibe id de empresa, de usuario y devuelve promociones y datos de usuario para mostrar en la app y permitir seleccionar*/
+
+    def initMagneticStamp(){
+        println params
+        def cc = Store.createCriteria()
+        def serverTime = Calendar.getInstance()   //estará en UTC
+        def companyid = params.company
+        def username = params.email
+        def result
+        if(!companyid?.trim() && !magnetic5?.trim()){
+            result = [status: 0, message:"Error en los parámetros de Empresa o de Usuario" ]
+            render result as JSON
+            return
+        }
+        def company = Company.findById(companyid as Long)
+        if(!company){
+            result = [status: 0, message: "No existe empresa con id: "+companyid]
+            render result as JSON
+            return
+        }
+        def usuario = User.findByMagnetic5(magnetic5?.trim())
+        def extended = ExtendedUser.findByUser(usuario)
+        println usuario
+        if(!usuario){
+            result = [status: 0, message: "El Usuario parece que no existe."]
+            render result as JSON
+            return
+        }
+        def userData = [id: usuario.id, name: usuario.name, picture: userService.userImageUrl(usuario), birthday: extended?.birthDate.toString(), originalCity: extended?.city, gender: extended?.gender]
+
+        /*def promos = []
+        promoList.each{promo,it->
+            def action = promo.activity == "Compra" ? "Compra 5" : "Visita 5 veces"
+            promos += [id: promo.id, name: action+" "+promo.article+" y recibe con Nest5: "+promo.wins, reqQTY: promo.cantArt, action : promo.activity, perkQTY: 0, requirement: promo.article, perk: promo.wins]
+        }*/
+        def stores = Store.findAllByCompany(company)
+
+
+        def horas = []
+//        println stores
+        //def deals = []
+        //println stores
+        def benefits = []
+
+        stores.each{
+
+            def offers = it.offers
+
+            //def distance = utilityService.getDistance(lat,lng,it.latitude,it.longitude)
+            // println offers
+            offers.each{cur->
+                def localTime = new GregorianCalendar(TimeZone.getTimeZone(cur.timeZone))
+                localTime.setTimeInMillis(serverTime.getTimeInMillis())
+                def hour = localTime.get(Calendar.HOUR_OF_DAY)
+                def minute = localTime.get(Calendar.MINUTE)
+                def second = localTime.get(Calendar.SECOND)
+                def weekDay = localTime.get(Calendar.DAY_OF_WEEK)
+                //def hora = [server: serverTime,local: localTime,hourofdaylocal: hour,minute:minute,second:second,day:weekDay]
+                //horas += hora
+                def validDays = cur.validDays.split("|")
+                if ((weekDay.toString() in validDays) && (cur.validHourMin <= hour) && (cur.validHourMax >= hour))
+                {
+                    //println cur.toString() + " es valida hoy, el dia"+weekDay.toString()+" entre las "+cur.validHourMin+" y las "+cur.validHourMax
+                    def action = cur.promo.activity == "Compra" ? "Compra 5" : "Visita 5 veces"
+                    def act = [id: cur.promo.id,name: action+" "+cur.promo.article+" y recibe con Nest5: "+cur.promo.wins,action: cur.promo.activity,reqQTY: cur.promo.cantArt,perkQTY: 1,requirement: cur.promo.article,perk: cur.promo.wins,minHour: cur.validHourMin,maxHour:cur.validHourMax,hour:hour]
+                    benefits += act
+                }
+
+
+
+
+
+            }
+
+
+        }
+
+        if(benefits.size() <= 0){
+            result = [status: 0, message: "Aún no ofreces beneficios a tus usuarios"]
+            render result as JSON
+            return
+        }
+
+        result = [status: 1, message: "", user: userData, promos: benefits]
+        render result as JSON
+        return
+
+
+
+    }
+    /*Recibe id de empresa, usuario o email de usuario y devuelve promociones y datos de usuario para mostrar en la app y permitir seleccionar*/
+
+    def initManualStamp(){
+        println params
+        def cc = Store.createCriteria()
+        def serverTime = Calendar.getInstance()   //estará en UTC
+        def companyid = params.company
+        def username = params.email
+        def result
+        if(!companyid?.trim() && !magnetic5?.trim()){
+            result = [status: 0, message:"Error en los parámetros de Empresa o de Usuario" ]
+            render result as JSON
+            return
+        }
+        def company = Company.findById(companyid as Long)
+        if(!company){
+            result = [status: 0, message: "No existe empresa con id: "+companyid]
+            render result as JSON
+            return
+        }
+        def usuario = User.findByUsername(username?.trim()) ?: User.findByEmail(username?.trim())
+        def extended = ExtendedUser.findByUser(usuario)
+        println usuario
+        if(!usuario){
+            result = [status: 0, message: "El Usuario parece que no existe."]
+            render result as JSON
+            return
+        }
+        def userData = [id: usuario.id, name: usuario.name, picture: userService.userImageUrl(usuario), birthday: extended?.birthDate.toString(), originalCity: extended?.city, gender: extended?.gender]
+
+        /*def promos = []
+        promoList.each{promo,it->
+            def action = promo.activity == "Compra" ? "Compra 5" : "Visita 5 veces"
+            promos += [id: promo.id, name: action+" "+promo.article+" y recibe con Nest5: "+promo.wins, reqQTY: promo.cantArt, action : promo.activity, perkQTY: 0, requirement: promo.article, perk: promo.wins]
+        }*/
+        def stores = Store.findAllByCompany(company)
+
+
+        def horas = []
+//        println stores
+        //def deals = []
+        //println stores
+        def benefits = []
+
+        stores.each{
+            println it
+            def offers = it.offers
+
+            //def distance = utilityService.getDistance(lat,lng,it.latitude,it.longitude)
+            // println offers
+            offers.each{cur->
+                println cur
+                def localTime = new GregorianCalendar(TimeZone.getTimeZone(cur.timeZone))
+                localTime.setTimeInMillis(serverTime.getTimeInMillis())
+                def hour = localTime.get(Calendar.HOUR_OF_DAY)
+                def minute = localTime.get(Calendar.MINUTE)
+                def second = localTime.get(Calendar.SECOND)
+                def weekDay = localTime.get(Calendar.DAY_OF_WEEK)
+                //def hora = [server: serverTime,local: localTime,hourofdaylocal: hour,minute:minute,second:second,day:weekDay]
+                //horas += hora
+                def validDays = cur.validDays.split("|")
+                if ((weekDay.toString() in validDays) && (cur.validHourMin <= hour) && (cur.validHourMax >= hour))
+                {
+                    //println cur.toString() + " es valida hoy, el dia"+weekDay.toString()+" entre las "+cur.validHourMin+" y las "+cur.validHourMax
+                    def action = cur.promo.activity == "Compra" ? "Compra 5" : "Visita 5 veces"
+                    def act = [id: cur.id,name: action+" "+cur.promo.article+" y recibe con Nest5: "+cur.promo.wins,action: cur.promo.activity,reqQTY: cur.promo.cantArt,perkQTY: 1,requirement: cur.promo.article,perk: cur.promo.wins,minHour: cur.validHourMin,maxHour:cur.validHourMax,hour:hour,storename: cur.store.name, storeid: cur.store.id]
+                    benefits += act
+                }
+
+
+
+
+
+            }
+
+
+        }
+
+        if(benefits.size() <= 0){
+            result = [status: 0, message: "Aún no ofreces beneficios a tus usuarios"]
+            render result as JSON
+            return
+        }
+
+        result = [status: 1, message: "", user: userData, promos: benefits]
+        render result as JSON
+        return
+
+
 
     }
 

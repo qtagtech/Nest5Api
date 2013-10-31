@@ -19,6 +19,7 @@ class User extends SecUser {
     String androidID = "0"
     String iphoneID = "0"
     String rimID = "0"
+    String magnetic5 = "00000000"
 
 
 
@@ -77,6 +78,12 @@ class User extends SecUser {
 
 
     static constraints = {
+
+    }
+    static  mapping = {
+
+        magnetic5 type: 'text'
+
     }
     
     String toString(){

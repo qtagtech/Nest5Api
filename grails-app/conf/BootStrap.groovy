@@ -3,6 +3,7 @@ import com.nest5.Nest5Client.Company
 import com.nest5.Nest5Client.Country
 import com.nest5.Nest5Client.EventType
 import com.nest5.Nest5Client.Heart
+import com.nest5.Nest5Client.Promo
 import com.nest5.Nest5Client.SecRole
 import com.nest5.Nest5Client.SecUserSecRole
 import com.nest5.Nest5Client.User
@@ -29,6 +30,20 @@ class BootStrap {
                 phone: '3014597229',
                 referer: 'none',
                 date: '1986/01/13').save(failOnError: true)
+
+        def duUser = User.findByUsername('dummyUser') ?: new User(
+                username: 'dummyUser',
+                password: 'zAxEE9U1691Nq0h5JiJ0X20tcayF5RTpmzIOctVGNQNBByHslznDR0VP7rWOuyW',
+                enabled: true,
+                name : 'Nest5 Dummy User',
+                email: 'dummy@nest5.com',
+                smartphone: true,
+                smartphoneBrand: 'Android-Samsung',
+                phone: '3014597229',
+                referer: 'none',
+                date: '1986/01/13').save(failOnError: true)
+
+
 
 
          def compa  = Company.findByEmail("juanda6@gmail.com")

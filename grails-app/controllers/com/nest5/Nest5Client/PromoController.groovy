@@ -424,12 +424,19 @@ class PromoController {
         }
        def results = couponService.saveCoupons(userInstance,offer.promo, offer.store.name)
 
-
-       //render text: "listo"
-        //devolver json con todo lo que sea para validar si recibió bien el código
-        def promoDesc = [id: offer.promo.id,action: offer.promo.activity,reqQTY: offer.promo.cantArt,perkQTY: 1,requirement: offer.promo.article,perk: offer.promo.wins]
-        def payload = [promo: promoDesc, coupons: results.coupons, stamps: results.stamps, company: offer.promo.company]
-        def data =  [status: 1,uid: userInstance.id, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],payload: payload  ]
+        if(params.frombusiness != "claro"){
+            //render text: "listo"
+            //devolver json con todo lo que sea para validar si recibió bien el código
+            def promoDesc = [id: offer.promo.id,action: offer.promo.activity,reqQTY: offer.promo.cantArt,perkQTY: 1,requirement: offer.promo.article,perk: offer.promo.wins]
+            def payload = [promo: promoDesc, coupons: results.coupons, stamps: results.stamps, company: offer.promo.company]
+            def data =  [status: 1,uid: userInstance.id, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],payload: payload  ]
+            println data
+            render data  as JSON
+            return
+        }
+        def cupones = Coupon.findAllByUser(userInstance)
+        def data =  [status: 1, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],stamps: results.stamps.size(), coupons: cupones.size()  ]
+        println data
         render data  as JSON
         return
 
@@ -484,6 +491,7 @@ class PromoController {
         def promoDesc = [id: offer.promo.id,action: offer.promo.activity,reqQTY: offer.promo.cantArt,perkQTY: 1,requirement: offer.promo.article,perk: offer.promo.wins]
         def payload = [promo: promoDesc, coupons: results.coupons, stamps: results.stamps, company: offer.promo.company]
         def data =  [status: 1,uid: userInstance.id, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],payload: payload  ]
+        println data
         render data  as JSON
         return
 

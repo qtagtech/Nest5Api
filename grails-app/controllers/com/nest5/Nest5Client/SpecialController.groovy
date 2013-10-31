@@ -83,4 +83,27 @@ class SpecialController {
         render data  as JSON
         return
     }
+
+
+    def test(){
+        def company = Company.findByEmail("juanda6@gmail.com")
+        def promos =  company.managedPromos
+        def promo = null
+        promos.each{
+            promo = it
+        }
+        println promos
+        def store = new Store(
+                company: company,
+                name: "El Tesoro",
+                code: "ABVED"
+        ).save(flush: true)
+        def offer = new Offer(
+             store: store,
+                promo: promo,
+                createdAt: new Date(),
+                ValidThru: new Date() + 54,
+        )
+        if(!offer.save(flush: true)) println offer.errors.allErrors
+    }
 }
