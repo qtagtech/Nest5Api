@@ -14,6 +14,7 @@ class Company extends SecUser {
     String logo = ""
     String url = "http://"
     Date registerDate
+    Boolean active = true
 
 
 
