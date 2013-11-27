@@ -583,7 +583,7 @@ class CompanyController {
     *
     *
     * */
-     /*HACER LOGIN DESDE APP DE ANDROID NEST5BUSINESS  OCTUBRE 29 DE 2013 JUANDA*/
+     /*HACER LOGIN DESDE APP DE ANDROID NEST5BUSINESS  OCTUBRE 29 DE 2013 JUANDA -- MODIFICADA NOV 19 PARA HACER LOGIN DESDE JAVA APP DESKTOP*/
     def checkLogin(){
         println params
         def username = params.email?.trim()
@@ -597,13 +597,14 @@ class CompanyController {
         }
         def user = Company.findByUsername(username);
         if(!user){
+
             result = [status: 0,id: 0, email: "", name: "",phone: "", username: ""]
             render result as JSON
             return
         }
         def password = springSecurityService.encodePassword(pass)
         if(password == user.password){
-            result = [status: 1,id: user.id, email: user.email, name: user.name, username: user.username]
+            result = [status: 1,id: user.id, email: user.email, name: user.name, username: user.username, phone: "000000"]
             render result as JSON
             return
         }
@@ -841,6 +842,108 @@ class CompanyController {
 
         result = [status: 1, message: "Exito", user: userData, promos: benefits]
         println result
+        render result as JSON
+        return
+
+
+
+    }
+
+    /*Traer desde java desktop app las tiendas de la empresa para que seleccione en la que hará login*/
+
+    def showStores(){
+        println params
+        def username = params.email?.trim()
+        def result
+        if(!username){
+            result = [status: 0,stores: null, message: "Error de parámetros"]
+            render result as JSON
+            return
+        }
+        def user = Company.findByUsername(username);
+        if(!user){
+
+            result = [status: 0,stores: null, message: "No existe el usuario que usas."]
+            render result as JSON
+            return
+        }
+        def stores = user.managedStores
+        if(stores.size() == 0){
+            result = [status: 0,stores: null,message: "Aún no has creado ninguna tienda.\nVe en tu navegador web a: http://nest5.com/company/panel e ingresa tus credenciales para hacer loggin y en la sección tiendas crea una para empezar a enamorar a tus Clientes.\nPara más información, visita el Centro de Soporte Nest5 en http://soporte.nest5.com."]
+            render result as JSON
+            return
+        }
+        def tiendas = []
+        stores.each {
+            tiendas += [id: it.id, name: it.name, code: it.code]
+        }
+        println tiendas
+        result = [status: 1,stores: tiendas, message: "Selecciona la tienda desde la que haces login."]
+        render result as JSON
+        return
+    }
+
+    /*Recibe id de empresa ytienda y muestra promociones activas ahí para sellar tarjeta de usuario desde JAVA desktop app*/
+
+    def showPromosByStore(){
+        println params
+        def cc = Store.createCriteria()
+        def serverTime = Calendar.getInstance()   //estará en UTC
+        def compa = params.company
+        def storeid = params.storeid
+        def result
+        if(!compa?.trim() && !storeid?.trim()){
+            result = [status: 0, message:"Error en los parámetros de Empresa o de Usuario", promos: null ]
+            render result as JSON
+            return
+        }
+        def company = Company.findByUsername(compa)
+        if(!company){
+            result = [status: 0, message: "Parece que hay errores con la  empresa desde la que intentas sellar una tarjeta de usuario. Por favor escribe un correo a soporte@nest5.com o ve a http://soporte.nest5.com y lee la documentación.",promos: null]
+            render result as JSON
+            return
+        }
+        def store = Store.findById(storeid as Long)
+        if(!store){
+            result = [status: 0, message: "No existe la tienda desde la que intentas registrar un sello de usuario.", promos: null]
+            render result as JSON
+            return
+        }
+        def horas = []
+//        println stores
+        //def deals = []
+        //println stores
+        def benefits = []
+
+            def offers = store.offers
+            offers.each{cur->
+                def localTime = new GregorianCalendar(TimeZone.getTimeZone(cur.timeZone))
+                localTime.setTimeInMillis(serverTime.getTimeInMillis())
+                def hour = localTime.get(Calendar.HOUR_OF_DAY)
+                def minute = localTime.get(Calendar.MINUTE)
+                def second = localTime.get(Calendar.SECOND)
+                def weekDay = localTime.get(Calendar.DAY_OF_WEEK)
+                //def hora = [server: serverTime,local: localTime,hourofdaylocal: hour,minute:minute,second:second,day:weekDay]
+                //horas += hora
+                def validDays = cur.validDays.split("|")
+                if ((weekDay.toString() in validDays) && (cur.validHourMin <= hour) && (cur.validHourMax >= hour))
+                {
+                    def action = cur.promo.activity == "Compra" ? "Compra 5" : "Visita 5 veces"
+                    def act = [id: cur.id,name: action+" "+cur.promo.article+" y recibe con Nest5: "+cur.promo.wins,action: cur.promo.activity,reqQTY: cur.promo.cantArt,perkQTY: 1,requirement: cur.promo.article,perk: cur.promo.wins,minHour: cur.validHourMin,maxHour:cur.validHourMax,hour:hour]
+                    benefits += act
+                }
+            }
+
+
+
+
+        if(benefits.size() <= 0){
+            result = [status: 0, message: "Aún no ofreces beneficios a tus usuarios. Hacerlo es muy fácil y es la forma de enamorar a tus usuarios. Ve a http://nest5.com/company/panel en tu navegador web y hazlo en la sección Promociones.\nSi necesitas ayuda, visita: http://soporte.nest5.com y encuentra tutoriales, guías y videos de cómo hacerlo.",promos: null]
+            render result as JSON
+            return
+        }
+
+        result = [status: 1, message: "OK", promos: benefits]
         render result as JSON
         return
 

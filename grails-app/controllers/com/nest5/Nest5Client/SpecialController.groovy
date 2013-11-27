@@ -106,4 +106,12 @@ class SpecialController {
         )
         if(!offer.save(flush: true)) println offer.errors.allErrors
     }
+
+    def javaTest(){
+        println params
+        def r = [id: 0, status: 0, message: "EXITO"]
+        render r as JSON
+        response.setStatus(200)
+        return
+    }
 }

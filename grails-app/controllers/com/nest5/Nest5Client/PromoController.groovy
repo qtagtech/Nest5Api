@@ -397,48 +397,60 @@ class PromoController {
 //    @Secured(["ROLE_API"])
     def beLucky()
     {
-       def userId = params.id
+        try {
+            def userId = params.id?.trim() as Long
 
 
-       def code = params.code
-       def userInstance = User.findById(userId)
-       if(!userInstance)
-       {
-           def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡No existe el usuario!"] ]
-           render data  as JSON
-           return
-       }
+            def code = params.code
+            def userInstance = User.findById(userId)
 
-       def offer = Offer.findById((Double)code.toInteger())
-        if(!offer)
-        {
-            def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡No existe la promoción!"] ]
-            render data  as JSON
-            return
-        }
-      // println userInstance
-        //println promo.company
-       userInstance.addToPromo(offer)
-       Category.withSession { session ->
-            session.flush()
-        }
-       def results = couponService.saveCoupons(userInstance,offer.promo, offer.store.name)
+            if(!userInstance)
+            {
+                def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡No existe el usuario!"],stamps: null, coupons: null ]
+                render data  as JSON
+                return
+            }
 
-        if(params.frombusiness != "claro"){
-            //render text: "listo"
-            //devolver json con todo lo que sea para validar si recibió bien el código
-            def promoDesc = [id: offer.promo.id,action: offer.promo.activity,reqQTY: offer.promo.cantArt,perkQTY: 1,requirement: offer.promo.article,perk: offer.promo.wins]
-            def payload = [promo: promoDesc, coupons: results.coupons, stamps: results.stamps, company: offer.promo.company]
-            def data =  [status: 1,uid: userInstance.id, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],payload: payload  ]
+            def offer = Offer.findById((Double)code.toInteger())
+            if(!offer)
+            {
+                println params.code
+                def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡No existe la promoción!"],stamps: null, coupons: null]
+                render data  as JSON
+                return
+            }
+            // println userInstance
+            //println promo.company
+            userInstance.addToPromo(offer)
+            Category.withSession { session ->
+                session.flush()
+            }
+            def results = couponService.saveCoupons(userInstance,offer.promo, offer.store.name)
+
+            if(params.frombusiness != "claro"){
+                //render text: "listo"
+                //devolver json con todo lo que sea para validar si recibió bien el código
+                def promoDesc = [id: offer.promo.id,action: offer.promo.activity,reqQTY: offer.promo.cantArt,perkQTY: 1,requirement: offer.promo.article,perk: offer.promo.wins]
+                def payload = [promo: promoDesc, coupons: results.coupons, stamps: results.stamps, company: offer.promo.company]
+                def data =  [status: 1,uid: userInstance.id, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],payload: payload  ]
+                println data
+                render data  as JSON
+                return
+            }
+            def cupones = Coupon.findAllByUser(userInstance)
+            def data =  [status: 1, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],stamps: results.stamps.size(), coupons: cupones.size(), uid: 0  ]
             println data
             render data  as JSON
             return
         }
-        def cupones = Coupon.findAllByUser(userInstance)
-        def data =  [status: 1, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],stamps: results.stamps.size(), coupons: cupones.size()  ]
-        println data
-        render data  as JSON
-        return
+        catch (Exception e){
+
+            def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡Error con el servidor, inténtalo de nuevo por favor!"],stamps: null, coupons: null]
+            render data  as JSON
+            return
+        }
+
+
 
     }
 
