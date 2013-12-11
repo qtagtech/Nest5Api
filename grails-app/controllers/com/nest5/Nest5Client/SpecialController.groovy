@@ -6,7 +6,7 @@ class SpecialController {
     def userService
 
     def index() {
-        render "Nest5 API v.0.0.1 Rev. 0.0.1"
+        render "Nest5 API v."+grailsApplication.metadata.'app.version'+'<br><span style="font-size:9; color: orange;">&copy;2013 - Nest5 By <a href="http://www.qtagtech.com">Qtag Technologies</a> Made Proudly in Colombia</span>'
         return
     }
 
