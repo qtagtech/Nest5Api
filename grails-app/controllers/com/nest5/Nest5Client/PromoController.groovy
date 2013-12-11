@@ -454,6 +454,77 @@ class PromoController {
 
     }
 
+    /*Redimir cupon desde app de business
+    *
+    * */
+
+
+    def redeemCouponBusiness()
+    {
+        try {
+            def userId = params.id?.trim() as Long
+
+
+            def code = params.code
+            def userInstance = User.findById(userId)
+
+            if(!userInstance)
+            {
+                def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡No existe el usuario!"],stamps: null, coupons: null ]
+                render data  as JSON
+                return
+            }
+
+            def offer = Offer.findById((Double)code.toInteger())
+            if(!offer)
+            {
+                println params.code
+                def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡No existe la promoción!"],stamps: null, coupons: null]
+                render data  as JSON
+                return
+            }
+            // println userInstance
+            //println promo.company
+            def c = Coupon.createCriteria()
+            def coupon = c.list{
+                eq("user",userInstance)
+                eq("redeemed",0)
+                eq("promo",offer.promo)
+
+            }
+
+            if(coupon.size() == 0){
+                def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡No hay beneficios disponibles para este usuario y esta promoción.!"],stamps: null, coupons: null ]
+                render data  as JSON
+                return
+            }
+
+            def cou = coupon.first()
+            cou.redeemed = 1
+            if(!cou.save(flush: true)){
+                def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡Error guardando el beneficio redimido, inténtalo de nuevo por favor.!"],stamps: null, coupons: null ]
+                render data  as JSON
+                return
+            }
+
+
+
+
+            def data =  [status: 1, errors: "0", errorType: "0", messages: [id: "NA",value:  "¡Éxitoo!"],stamps: null, coupons: coupon.size() - 1, uid: 0  ]
+            println data
+            render data  as JSON
+            return
+        }
+        catch (Exception e){
+
+            def data =  [status: 0,uid: 0, errors: "1", errorType: "0", messages: [id: "NA",value:  "¡Error con el servidor, inténtalo de nuevo por favor!"],stamps: null, coupons: null]
+            render data  as JSON
+            return
+        }
+
+
+
+    }
     @Secured(["ROLE_API"])
     def beLuckyTest()
     {
