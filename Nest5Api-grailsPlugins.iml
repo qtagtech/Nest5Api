@@ -3,7 +3,11 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="Gorm" />
+          <unit-entry name="sessionFactory" />
+        </datasource-map>
+        <naming-strategy-map />
       </configuration>
     </facet>
     <facet type="web" name="GrailsWeb">
@@ -52,7 +56,7 @@
     <content url="file://$USER_HOME$/.grails/2.2.0/projects/Nest5Api/plugins/webxml-1.4.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.0/projects/Nest5Api/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="grails-2.2.0" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="grails-2.2.0" level="application" />

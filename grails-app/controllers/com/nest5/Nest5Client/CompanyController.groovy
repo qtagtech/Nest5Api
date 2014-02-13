@@ -614,6 +614,35 @@ class CompanyController {
 
     }
 
+    def companyDetails(){
+        println request
+        def username = params.company_id
+        println params
+        //println username+" "+pass
+        def result
+        if(!username){
+            result = [status: 0,id: 0, email: "", name: "",phone: "", username: ""]
+            render result as JSON
+            return
+        }
+        def user = Company.findById(username);
+        if(!user){
+
+            result = [status: 0,id: 0, email: "", name: "",phone: "", username: ""]
+            render result as JSON
+            return
+        }
+
+            result = [status: 1,company: user,category: [category:user.category,icon: user.category.icon]]
+            render(contentType:"text/json") {
+                result
+            }
+
+            return
+
+
+    }
+
     /*Guardar registro de backup de base de datos en amazon s3 octubre 29 de 2013 Juanda*/
 
     def saveDB(){

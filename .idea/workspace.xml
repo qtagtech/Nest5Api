@@ -2,181 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b06033e-a2b0-4356-a516-c24735283324" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\Nest5Api-0.1.war" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Nest5Api-1.0b.war" afterPath="$PROJECT_DIR$/target/Nest5Api-1.0b.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nest5Api-grailsPlugins.iml" afterPath="$PROJECT_DIR$/Nest5Api-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nest5Api.iml" afterPath="$PROJECT_DIR$/Nest5Api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Nest5Api.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/emails/invite.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374245055731" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/controllers/com/nest5/Nest5Client/UserController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383674637601" ignored="false" />
-    <file path="/UserController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383674638006" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/controllers/LogoutController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="/a.dummy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1386732022858" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1386732025054" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/404.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247225943" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/download.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247304268" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/index.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247327678" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/privacy.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247342948" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/welcome.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247362282" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/welcomeSocial.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247384474" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/_promoQR.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247417072" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/complementary.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247435208" ignored="false" />
-    <file path="/complementary.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247435208" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/create_july.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247453289" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/create_old.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247463409" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/demographics.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247472924" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/interactions.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374851430755" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/panel.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247540709" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/layouts/controlPanel.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247571471" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/user/feed.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375299109065" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/user/info.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374857016614" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/user/invite.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247615189" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/user/profile.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374857011273" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/services/Nest5Client/CompanyService.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374247668973" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/services/Nest5Client/UserService.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383674542559" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/conf/Config.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="/Config.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374248263872" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/conf/BuildConfig.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375284348329" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/conf/DataSource.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374250651966" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/controllers/LoginController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/login/denied.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/domain/com/nest5/Nest5Client/SecRole.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/domain/com/nest5/Nest5Client/SecUser.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/domain/com/nest5/Nest5Client/SecUserSecRole.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/login/auth.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374263538606" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Comment.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Family.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269923" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Company.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Invitation.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/File.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/MediaCompany.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Media.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Universe.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/User.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Coupon.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/JobPosition.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/FileCompany.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/EventType.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Promo.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/UserEducation.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Country.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Message.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/SkillType.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269923" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Education.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Stamp.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269923" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Offer.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Icon.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Event.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Taste.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/UserJob.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Store.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Skill.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Heart.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Category.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Object.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/City.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Member.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/SecRole.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Friendship.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269923" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Relation.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/ExtendedUser.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269923" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/SecUser.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/SecUserSecRole.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/FacebookUser.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523269692" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Heart.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/City.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Comment.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/UserEducation.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Message.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/MediaCompany.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/EventType.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Promo.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Event.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Universe.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/SecUserSecRole.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Invitation.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Coupon.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/FileCompany.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/SecRole.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Education.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Offer.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Relation.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Icon.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/SecUser.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Media.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339562" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Taste.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/File.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/User.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/JobPosition.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/UserJob.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Store.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Skill.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/FacebookUser.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Category.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Object.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Member.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Country.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339156" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/SkillType.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339562" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Stamp.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339562" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Family.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339562" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Company.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339562" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/ExtendedUser.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339562" ignored="false" />
-    <file path="$PROJECT_DIR$/grails-app/domain/Nest5Client/Friendship.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523339562" ignored="false" />
-    <file path="/SpecialController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1386731604663" ignored="false" />
-    <file path="/UrlMappings.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374523887024" ignored="false" />
-    <file path="/PromoController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1386728995233" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/services/Nest5Client/FacebookAuthService.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375286093498" ignored="false" />
-    <file path="/FacebookAuthService.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375286093498" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/domain/com/nest5/Nest5Client/Stamp.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374850108797" ignored="false" />
-    <file path="/Stamp.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374849839013" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/controllers/com/nest5/Nest5Client/PromoController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374853338488" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/company/_general.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374850152447" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/domain/com/nest5/Nest5Client/Company.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383674335490" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/controllers/com/nest5/Nest5Client/StatisticsController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374851176030" ignored="false" />
-    <file path="/StatisticsController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374851176600" ignored="false" />
-    <file path="/interactions.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374851415099" ignored="false" />
-    <file path="/feed.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375298934904" ignored="false" />
-    <file path="/profile.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374853731965" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/user/cards.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374857035105" ignored="false" />
-    <file path="/cards.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374856942985" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/user/benefits.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374858481885" ignored="false" />
-    <file path="/benefits.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1374858464004" ignored="false" />
-    <file path="$PROJECT_DIR$/../newNest5/grails-app/services/FacebookAuthService.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375124291351" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/layouts/main_users_new.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375296924044" ignored="false" />
-    <file path="/main_users_new.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375296915694" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/web-app/feed/css/main.css" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375297852517" ignored="false" />
-    <file path="/main.css" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1375297669301" ignored="false" />
-    <file path="/CompanyController.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1386726968646" ignored="false" />
-    <file path="/BootStrap.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383206716926" ignored="false" />
-    <file path="/File.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383112001867" ignored="false" />
-    <file path="/User.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383203442258" ignored="false" />
-    <file path="/CouponService.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383234051071" ignored="false" />
-    <file path="$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383250493234" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/views/welcomeCapture.gsp" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383674169088" ignored="false" />
-    <file path="/UserService.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383674537538" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/workspace/newNest5/grails-app/domain/com/nest5/Nest5Client/User.groovy" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1383674389935" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/Main.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385525056238" ignored="false" />
-    <file path="/Main.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385525050973" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/.idea/workspace.xml" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384929214525" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/Response.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384920758316" ignored="false" />
-    <file path="/Response.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384920750451" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/Setup.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385524569178" ignored="false" />
-    <file path="/Setup.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384919427157" ignored="false" />
-    <file path="/fragment.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385002681099" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/ResponseStore.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384924005161" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/Store.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384923956960" ignored="false" />
-    <file path="/Store.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384923956960" ignored="false" />
-    <file path="/ResponseStore.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1384924002633" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/Offer.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385000090239" ignored="false" />
-    <file path="/Offer.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385000090239" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/ResponseOffer.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385000120282" ignored="false" />
-    <file path="/ResponseOffer.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385000119488" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/MessageBeLucky.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385004777291" ignored="false" />
-    <file path="/MessageBeLucky.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385004776002" ignored="false" />
-    <file path="$USER_HOME$/IdeaProjects/PCSC/src/com/nest5/pcsc/ResponseBeLucky.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385004908954" ignored="false" />
-    <file path="/ResponseBeLucky.java" changelist="3b06033e-a2b0-4356-a516-c24735283324" time="1385004862319" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,10 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CompanyController.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CompanyController.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1028" column="120" selection-start="40675" selection-end="40675" vertical-scroll-proportion="-0.73913044">
+            <state line="637" column="22" selection-start="23808" selection-end="23808" vertical-scroll-proportion="1.0530822" vertical-offset="8895" max-vertical-offset="16335">
               <folding />
             </state>
           </provider>
@@ -248,8 +84,11 @@
       </file>
       <file leaf-file-name="Company.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Company.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="38" selection-start="965" selection-end="966" vertical-scroll-proportion="0.0">
+            <state line="42" column="38" selection-start="965" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -258,7 +97,7 @@
       <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+            <state line="14" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -267,16 +106,16 @@
       <file leaf-file-name="PromoController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/PromoController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="587" column="0" selection-start="24946" selection-end="24946" vertical-scroll-proportion="-27.347826">
+            <state line="668" column="0" selection-start="27702" selection-end="27702" vertical-scroll-proportion="0.0" vertical-offset="10020" max-vertical-offset="13215">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecialController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpecialController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="37" selection-start="764" selection-end="764" vertical-scroll-proportion="0.7296137">
+            <state line="35" column="37" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1845">
               <folding />
             </state>
           </provider>
@@ -284,8 +123,11 @@
       </file>
       <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -293,8 +135,11 @@
       </file>
       <file leaf-file-name="File.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/File.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+            <state line="10" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -302,8 +147,11 @@
       </file>
       <file leaf-file-name="MediaCompany.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/MediaCompany.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="2" column="24" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -340,16 +188,14 @@
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Company.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/PromoController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1108" />
-    <option name="y" value="-8" />
-    <option name="width" value="820" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -379,7 +225,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -391,7 +237,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -406,22 +252,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:Nest5Api">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="true" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -431,12 +261,41 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -465,19 +324,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -542,152 +388,75 @@
       <changelist id="3b06033e-a2b0-4356-a516-c24735283324" name="Default" comment="" />
       <created>1374243716255</created>
       <updated>1374243716255</updated>
+      <workItem from="1392155508650" duration="1367000" />
+      <workItem from="1392214456492" duration="5244000" />
+      <workItem from="1392294433011" duration="644000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7255000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1108" y="-8" width="820" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35785952" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25396827" sideWeight="0.64214045" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35841584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17228104" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33667782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2173913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.157082" sideWeight="0.64214045" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Promo.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.058721934">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Offer.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.056478404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.7567568" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/MediaCompany.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+        <state line="616" column="25" selection-start="23104" selection-end="23104" vertical-scroll-proportion="0.0" vertical-offset="9240" max-vertical-offset="16290">
           <folding />
         </state>
       </provider>
@@ -697,7 +466,206 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="38" selection-start="965" selection-end="966" vertical-scroll-proportion="0.0">
+        <state line="42" column="38" selection-start="965" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/PromoController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="668" column="0" selection-start="27702" selection-end="27702" vertical-scroll-proportion="0.0" vertical-offset="10020" max-vertical-offset="13215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/File.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/MediaCompany.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="586" column="4" selection-start="22072" selection-end="23077" vertical-scroll-proportion="0.0" vertical-offset="8790" max-vertical-offset="15900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Company.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="38" selection-start="965" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/PromoController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="668" column="0" selection-start="27702" selection-end="27702" vertical-scroll-proportion="0.0" vertical-offset="10020" max-vertical-offset="13215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/File.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="843" column="120" selection-start="32369" selection-end="32369" vertical-scroll-proportion="0.0" vertical-offset="12645" max-vertical-offset="12735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Company.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="38" selection-start="965" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/PromoController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="587" column="0" selection-start="24946" selection-end="24946" vertical-scroll-proportion="0.0" vertical-offset="8805" max-vertical-offset="12000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/File.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/MediaCompany.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Promo.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.058721934" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Offer.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.056478404" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/Company.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="38" selection-start="965" selection-end="966" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
@@ -707,63 +675,72 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="150" selection-end="150" vertical-scroll-proportion="0.1494975">
+        <state line="7" column="18" selection-start="150" selection-end="150" vertical-scroll-proportion="0.1494975" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/Nest5Client/CouponService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="304" selection-end="304" vertical-scroll-proportion="-2.7238095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1028" column="120" selection-start="40675" selection-end="40675" vertical-scroll-proportion="-0.73913044">
-          <folding />
-        </state>
+        <state line="11" column="41" selection-start="304" selection-end="304" vertical-scroll-proportion="-2.7238095" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CategoryController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="18" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="61" column="18" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6964065">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.6964065" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/PromoController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="587" column="0" selection-start="24946" selection-end="24946" vertical-scroll-proportion="-27.347826">
+        <state line="668" column="0" selection-start="27702" selection-end="27702" vertical-scroll-proportion="0.0" vertical-offset="10020" max-vertical-offset="13215">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/SpecialController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="764" selection-end="764" vertical-scroll-proportion="0.7296137">
+        <state line="35" column="37" selection-start="1210" selection-end="1210" vertical-scroll-proportion="-0.0" vertical-offset="525" max-vertical-offset="1845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/MediaCompany.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="637" column="22" selection-start="23808" selection-end="23808" vertical-scroll-proportion="1.0530822" vertical-offset="8895" max-vertical-offset="16335">
           <folding />
         </state>
       </provider>
