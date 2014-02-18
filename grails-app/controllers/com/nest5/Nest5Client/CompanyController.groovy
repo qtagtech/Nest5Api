@@ -634,6 +634,7 @@ class CompanyController {
         }
 
             result = [status: 1,company: user,category: [category:user.category,icon: user.category.icon]]
+            response.setContentType("text/json")
             render(contentType:"text/json") {
                 result
             }
