@@ -40,7 +40,7 @@ grails.project.dependency.resolution = {
 
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
-        runtime: 'postgresql:postgresql:9.1-902.jdbc4'
+        runtime 'org.postgresql:postgresql:9.2-1004-jdbc4'
 
         }
         // runtime 'mysql:mysql-connector-java:5.1.20'
@@ -48,8 +48,8 @@ grails.project.dependency.resolution = {
 
 
     plugins {
-        runtime ":hibernate:$grailsVersion"
-
+        //runtime ":hibernate:$grailsVersion"
+        compile ":hibernate4:4.3.4.2"
         runtime ":resources:1.1.6"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
@@ -57,10 +57,10 @@ grails.project.dependency.resolution = {
         //runtime ":cached-resources:1.0"
         //runtime ":yui-minify-resources:0.1.4"
 
-        build ":tomcat:$grailsVersion"
-
-        runtime ":database-migration:1.2.1"
-
+        //build ":tomcat:$grailsVersion"
+        build ':tomcat:7.0.52.1'
+       // runtime ":database-migration:1.2.1"
+        runtime ":database-migration:1.3.8"
         compile ':cache:1.0.1'
         /*compile ":heroku:1.0.1"
         compile ':cloud-support:1.0.8'*/

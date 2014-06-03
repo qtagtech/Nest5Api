@@ -585,7 +585,7 @@ class CompanyController {
     * */
      /*HACER LOGIN DESDE APP DE ANDROID NEST5BUSINESS  OCTUBRE 29 DE 2013 JUANDA -- MODIFICADA NOV 19 PARA HACER LOGIN DESDE JAVA APP DESKTOP*/
     def checkLogin(){
-        println params
+       // println params
         def username = params.email?.trim()
         def pass = params.password?.trim()
         //println username+" "+pass
@@ -625,7 +625,7 @@ class CompanyController {
             render result as JSON
             return
         }
-        def user = Company.findById(username);
+        def user = Company.findById(username) as Company;
         if(!user){
 
             result = [status: 0,id: 0, email: "", name: "",phone: "", username: ""]

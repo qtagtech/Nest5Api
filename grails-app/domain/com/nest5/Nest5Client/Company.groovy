@@ -15,8 +15,13 @@ class Company extends SecUser {
     String url = "http://"
     Date registerDate
     Boolean active = true
+    String invoiceMessage = ""
+    String tipMessage = ""
 
-
+    static mapping = {
+        invoiceMessage type: 'text'
+        tipMessage type: 'text'
+    }
 
     List clients() {
         return clients.collect{it.user}
