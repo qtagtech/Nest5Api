@@ -74,6 +74,7 @@ environments {
         grails.plugins.springsecurity.facebook.secret='c75f74270ce8dfdb455f05304fa68fc1'*/
         /*grails.plugins.springsecurity.facebook.appId='550109801691585'//Production
         grails.plugins.springsecurity.facebook.secret='513001ad6358dbb1cadedc820bd56b07'*/
+        com.nest5.Nest5Client.bigDataServerURL = "http://localhost:8090"
     }
     production {
         grails.logging.jul.usebridge = true
@@ -152,3 +153,27 @@ grails.plugins.springsecurity.basic.realmName = "Nest5Client"
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.nest5.Nest5Client.SecUser'
 grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.nest5.Nest5Client.SecUserSecRole'
 grails.plugins.springsecurity.authority.className = 'com.nest5.Nest5Client.SecRole'
+
+// Uncomment and edit the following lines to start using Grails encoding & escaping improvements
+
+/* remove this line 
+// GSP settings
+grails {
+    views {
+        gsp {
+            encoding = 'UTF-8'
+            htmlcodec = 'xml' // use xml escaping instead of HTML4 escaping
+            codecs {
+                expression = 'html' // escapes values inside null
+                scriptlet = 'none' // escapes output from scriptlets in GSPs
+                taglib = 'none' // escapes output from taglibs
+                staticparts = 'none' // escapes output from static template parts
+            }
+        }
+        // escapes all not-encoded output at final stage of outputting
+        filteringCodecForContentType {
+            //'text/html' = 'html'
+        }
+    }
+}
+remove this line */
