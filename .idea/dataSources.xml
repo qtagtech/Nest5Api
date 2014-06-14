@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2394523358">
+    <data-source source="LOCAL" name="Nest5Api dev" uuid="574b8f7b-11f1-4534-99a5-e5c1e1bc0672">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.1.245:5432/newNest5DB2</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfdbdfdedfcbdfcddfdedfcfdfc9dfc2</user-password>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/lib/postgresql-9.2-1004.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

@@ -64,31 +64,21 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
-//        grails.serverURL = "http://nest5.local:8080"
-
-//        grails.serverURL = "http://localhost:8080"
         grails.serverURL = "http://hookthemapp.localhost.com:8080"
-//        grails.serverURL = "http://nest5.com"
         grails.app.context = "/"
-        /*grails.plugins.springsecurity.facebook.appId='171676339619557'
-        grails.plugins.springsecurity.facebook.secret='c75f74270ce8dfdb455f05304fa68fc1'*/
-        /*grails.plugins.springsecurity.facebook.appId='550109801691585'//Production
-        grails.plugins.springsecurity.facebook.secret='513001ad6358dbb1cadedc820bd56b07'*/
         com.nest5.Nest5Client.bigDataServerURL = "http://localhost:8090"
+    }
+
+    test {
+        grails.logging.jul.usebridge = true
+        grails.serverURL = "http://apistaging.nest5.com"
+        grails.app.context = "/"
+        com.nest5.Nest5Client.bigDataServerURL = "http://bogdatastaging.nest5.com"
     }
     production {
         grails.logging.jul.usebridge = true
-
         grails.serverURL = "http://api.nest5.com"
-//        grails.serverURL = "http://hookthemapp.localhost.com:8080"
         grails.app.context = "/"
-        /*grails.plugins.springsecurity.facebook.appId='271254856287847'
-        grails.plugins.springsecurity.facebook.secret='7c38b8935ccfda16f94d8fe7e2c1295a'*/
-        /*grails.plugins.springsecurity.facebook.appId='171676339619557'
-        grails.plugins.springsecurity.facebook.secret='c75f74270ce8dfdb455f05304fa68fc1'*/
-        /*grails.plugins.springsecurity.facebook.appId='550109801691585'
-        grails.plugins.springsecurity.facebook.secret='513001ad6358dbb1cadedc820bd56b07'*/
-
     }
 }
 
@@ -128,26 +118,12 @@ grails {
 }
 
 // Added by the Spring Security Core plugin:
-/*grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.nest5.Nest5Client.SecUser'
-grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'com.nest5.Nest5Client.SecUserSecRole'
-grails.plugins.springsecurity.authority.className = 'com.nest5.Nest5Client.SecRole'*/
 grails.plugins.springsecurity.useBasicAuth = true
 grails.plugins.springsecurity.basic.realmName = "Nest5Client"
 /*grails.plugins.springsecurity.filterChain.chainMap = [
         '/api*': 'JOINED_FILTERS,-exceptionTranslationFilter',
         '/j_spring_security_facebook_redirect' : 'JOINED_FILTERS,-basicAuthenticationFilter,-basicExceptionTranslationFilter',
         '*': 'JOINED_FILTERS,-basicAuthenticationFilter,-basicExceptionTranslationFilter',]*/
-
-
-
-
-//grails.plugins.springsecurity.facebook.domain.classname='com.nest5.Nest5Client.FacebookUser'
-//grails.plugins.springsecurity.facebook.permissions = 'publish_actions,email,user_relationship_details,friends_relationship_details,user_birthday,friends_birthday,user_likes,friends_likes,user_hometown,friends_hometown,user_location,friends_location,user_work_history,friends_work_history'
-//grails.plugins.springsecurity.securityConfigType = "Annotation"
-//grails.nest5.foursquare.clientId='BSXO1F1NWFFWOKHZZSB1EEU3JRUB1XNZ2XA2NHUFAUPXV5MR'
-//grails.nest5.foursquare.secret='R2MY1H30WP5UR3UB2VZWSNU5BFBQE4N31CJZRAJH4YQ03EAN'
-//grails.nest5.foursquare.redirectUri="http://hookthemapp.localhost.com:8080/foursquare"
-
 
 // Added by the Spring Security Core plugin:
 grails.plugins.springsecurity.userLookup.userDomainClassName = 'com.nest5.Nest5Client.SecUser'
@@ -156,24 +132,4 @@ grails.plugins.springsecurity.authority.className = 'com.nest5.Nest5Client.SecRo
 
 // Uncomment and edit the following lines to start using Grails encoding & escaping improvements
 
-/* remove this line 
-// GSP settings
-grails {
-    views {
-        gsp {
-            encoding = 'UTF-8'
-            htmlcodec = 'xml' // use xml escaping instead of HTML4 escaping
-            codecs {
-                expression = 'html' // escapes values inside null
-                scriptlet = 'none' // escapes output from scriptlets in GSPs
-                taglib = 'none' // escapes output from taglibs
-                staticparts = 'none' // escapes output from static template parts
-            }
-        }
-        // escapes all not-encoded output at final stage of outputting
-        filteringCodecForContentType {
-            //'text/html' = 'html'
-        }
-    }
-}
-remove this line */
+

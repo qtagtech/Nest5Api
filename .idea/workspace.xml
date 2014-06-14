@@ -2,45 +2,327 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59427c92-831d-4f4d-ae51-34d4d6fcaf53" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\ApplicationResources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\ApplicationResources$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\ApplicationResources.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BootStrap$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BootStrap$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BootStrap.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BuildConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BuildConfig$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BuildConfig$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BuildConfig$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BuildConfig$_run_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Config$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Config$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Config$_run_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Config$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Config$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Config$_run_closure3_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Config.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure3_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure3_closure4_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure3_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure3_closure5_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure3_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource$_run_closure3_closure6_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LogoutController$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\LogoutController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\CompanyService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\CouponService$_getStamps_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\CouponService$_saveCoupons_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\CouponService$_saveCoupons_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\CouponService$_showMyDeals_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\CouponService$_showMyDeals_closure3_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\CouponService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UserService$_sendCompanyEndMail_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UserService$_sendCompanyInitMail_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UserService$_sendContactMail_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UserService$_sendInvitationMail_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UserService$_sendWelcomeMail_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UserService$_sendWelcomeMail_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\Nest5Client\UtilityService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\UrlMappings$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\UrlMappings$__clinit__closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\UrlMappings$__clinit__closure1_closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\UrlMappings.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\application.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Category$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Category$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Category.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CategoryController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\City$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\City.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Comment$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Comment$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Comment.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Company$__clinit__closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Company$__clinit__closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Company$_chats_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Company$_clients_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Company$_lazyPromos_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Company.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_companyDetails_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_firstInteraction_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_firstInteraction_closure8_closure27.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_firstInteraction_closure8_closure27_closure29.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_firstInteraction_closure8_closure28.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_firstInteraction_closure8_closure28_closure30.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_firstInteraction_closure8_closure28_closure30_closure31.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initMagneticStamp_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initMagneticStamp_closure14_closure32.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initManualRedeem_closure18.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initManualRedeem_closure18_closure34.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initManualRedeem_closure18_closure34_closure35.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initManualRedeem_closure18_closure34_closure35_closure36.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initManualStamp_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_initManualStamp_closure15_closure33.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure1_closure19.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure1_closure20.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure2_closure21.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure5_closure22.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure5_closure22_closure23.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure7_closure24.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure7_closure25.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_panel_closure7_closure26.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_showClients_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_showClients_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_showCompanies_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_showCompanies_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_showPromosByStore_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController$_showStores_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\CompanyController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Country$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Country.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Coupon$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Coupon.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Education$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Education$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Education.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\EducationController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Event$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Event$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Event.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\EventController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\EventType$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\EventType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\EventTypeController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\ExtendedUser$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\ExtendedUser$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\ExtendedUser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\FacebookUser$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\FacebookUser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Family$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Family.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\FamilyController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\File$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\File$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\File.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\FileCompany$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\FileCompany$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\FileCompany.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Friendship$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Friendship.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Heart$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Heart$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Heart.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Icon$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Icon.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\IconController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Invitation$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Invitation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\JobPosition$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\JobPosition$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\JobPosition.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\JobPositionController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Media$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Media.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\MediaCompany$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\MediaCompany.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Member$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Member$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Member.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\MemberController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Message$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Message.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Object$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Object.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\ObjectController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Offer$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Offer$_users_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Offer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Promo$__clinit__closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Promo$__clinit__closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Promo$_stores_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Promo$_users_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Promo.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_beLucky_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_redeemCouponBusiness_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showCompanyOffers_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showCompanyOffers_closure13_closure18.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDealsOld_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDealsOld_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDealsOld_closure2_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDealsOld_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDeals_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDeals_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDeals_closure11_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDeals_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDirectory_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDirectory_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDirectory_closure5_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showDirectory_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showMyDeals_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController$_showStoreOffers_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\PromoController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Relation$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Relation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecRole$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecRole$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecRole.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecUser$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecUser$__clinit__closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecUser$_getAuthorities_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecUser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecUserSecRole$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SecUserSecRole.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Skill$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Skill.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SkillController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SkillType$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SkillType.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SkillTypeController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SpecialController$_test_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\SpecialController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Stamp$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Stamp$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Stamp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Store$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Store$_promos_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Store.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\StoreController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Taste$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Taste.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\TasteController$_listCategory_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\TasteController$_listFamily_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\TasteController$_listObject_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\TasteController$_listUniverse_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\TasteController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Universe$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\Universe.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UniverseController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User$__clinit__closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User$__clinit__closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User$_brands_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User$_chats_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User$_friends_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User$_friends_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User$_promos_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\User.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserController$_activity_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserController$_activity_closure3_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserController$_requestUserCoupons_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserController$_requestUserCoupons_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserController$_suggestBrands_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserEducation$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserEducation$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserEducation.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserJob$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserJob$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\com\nest5\Nest5Client\UserJob.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp\views.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_globalnav_gsp$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_globalnav_gsp$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_globalnav_gsp$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_globalnav_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_globalnav_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_globalnav_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_index_gsp$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_index_gsp$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_index_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_index_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_index_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_overview_summary_gsp$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_overview_summary_gsp$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_overview_summary_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_overview_summary_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_overview_summary_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_stylesheet_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_stylesheet_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_databaseMigration_dbdoc_stylesheet_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailsi18ntest_gsp$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailsi18ntest_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailsi18ntest_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailsi18ntest_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstagtest_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstagtest_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstagtest_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstest_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstest_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstest_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstesthtml_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstesthtml_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_mail__testemailstesthtml_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Api_layoutsmain_gsp$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Api_layoutsmain_gsp$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Api_layoutsmain_gsp$_run_closure1_closure3_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Api_layoutsmain_gsp$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Api_layoutsmain_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Api_layoutsmain_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Api_layoutsmain_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apierror_gsp$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apierror_gsp$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apierror_gsp$_run_closure1_closure3_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apierror_gsp$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apierror_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apierror_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apierror_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp$_run_closure2_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp$_run_closure2_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp_html.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\gsp_nest5Apiindex_gsp_linenumbers.data" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\resources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Juandavid\Documents\GitHub\Nest5Api\target\classes\resources.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nest5Api-grailsPlugins.iml" afterPath="$PROJECT_DIR$/Nest5Api-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Nest5Api.iml" afterPath="$PROJECT_DIR$/Nest5Api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Nest5Api.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1397615362809" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5Web/grails-app/views/layouts/dashboardLayout.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394161079773" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/Web Workspace/nest5Knowledge/application.properties" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394156092174" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/Web Workspace/nest5Knowledge/grails-app/views/layouts/b3knowledge.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394154684818" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/Web Workspace/nest5Knowledge/grails-app/views/index.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394154684818" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/Web Workspace/nest5Knowledge/grails-app/views/category/knowledgebase.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394154684818" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/Web Workspace/nest5Knowledge/grails-app/views/article/view.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394154684818" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/Web Workspace/nest5Knowledge/grails-app/conf/DataSource.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394157548612" ignored="false" />
-    <file path="/dashboardLayout.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394161049140" ignored="false" />
-    <file path="/a.dummy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394405075558" ignored="false" />
-    <file path="$PROJECT_DIR$/../../Trabajo/Web Workspace/nest5Knowledge/grails-app/conf/BuildConfig.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394155991255" ignored="false" />
-    <file path="/BuildConfig.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394399721293" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/conf/DataSource.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394398623870" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/conf/UrlMappings.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394398979946" ignored="false" />
-    <file path="/fragment.java" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394398821674" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/controllers/com/nest5data/SpecialController.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394399539541" ignored="false" />
-    <file path="/UrlMappings.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394398978971" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/conf/BuildConfig.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394399721293" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5Web/grails-app/conf/Config.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394399930526" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/conf/Config.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394414677842" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5Web/grails-app/views/company/addCombo.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394421747130" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5Web/grails-app/views/company/addIngredient.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394405090335" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5Web/grails-app/views/company/addMeasuramentUnit.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394405091883" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5Web/grails-app/views/company/addProduct.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394418086175" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/controllers/com/nest5data/DatabaseOpsController.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394411221300" ignored="false" />
-    <file path="/DatabaseOpsController.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394410591220" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/controllers/com/nest5data/RowOpsController.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394412610165" ignored="false" />
-    <file path="/RowOpsController.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394412559880" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5BusinessData/grails-app/controllers/com/nest5data/DeviceOpsController.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394413765942" ignored="false" />
-    <file path="/DeviceOpsController.groovy" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394413769115" ignored="false" />
-    <file path="$PROJECT_DIR$/../Nest5Web/web-app/js/dashboard/form-validation.js" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394421232546" ignored="false" />
-    <file path="/form-validation.js" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394417340234" ignored="false" />
-    <file path="/addProduct.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394418086489" ignored="false" />
-    <file path="/addCombo.gsp" changelist="59427c92-831d-4f4d-ae51-34d4d6fcaf53" time="1394421740951" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +337,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -91,9 +373,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -101,10 +382,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="21" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.03954802">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2193">
+              <caret line="98" column="21" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="986">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2397">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1666">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecUser.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/SecUser.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3406193" vertical-offset="0" max-vertical-offset="782">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="1122">
+              <caret line="54" column="90" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -125,11 +463,20 @@
       <MyDateState />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1376" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -145,7 +492,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -156,7 +503,77 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.nest5.Nest5Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Nest5Api" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -171,6 +588,13 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="options.lastSelected" value="tasks" />
+    <property name="options.splitter.main.proportions" value="0.30666667" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Grails.Grails:Nest5Api">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -195,6 +619,9 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -238,21 +665,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -272,6 +684,136 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Grails:Nest5Api" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
@@ -303,49 +845,73 @@
       <workItem from="1393510286702" duration="603000" />
       <workItem from="1393855762660" duration="479000" />
       <workItem from="1393940803214" duration="187000" />
+      <workItem from="1402345744112" duration="3877000" />
+      <workItem from="1402350337806" duration="1846000" />
+      <workItem from="1402353011402" duration="1297000" />
+      <workItem from="1402403223309" duration="715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1269000" />
+    <option name="totallyTimeSpent" value="9004000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13033536" sideWeight="0.62276787" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286638" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37723213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21033014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37644586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32912722" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.62276787" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -353,120 +919,301 @@
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2193">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="616" column="22" selection-start="23087" selection-end="23101" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="986">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2397">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1666">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/SecUser.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="782">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="1122">
+          <caret line="54" column="90" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="986">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2397">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1666">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/SecUser.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="782">
+          <caret line="36" column="133" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="1122">
+          <caret line="54" column="90" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="986">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2397">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1666">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/SecUser.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="782">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="1122">
+          <caret line="54" column="90" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="2193">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="616" column="22" selection-start="23087" selection-end="23101" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="616" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="616" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="140" selection-end="183" vertical-scroll-proportion="0.3207547">
-          <folding />
+        <state vertical-scroll-proportion="0.3207547" vertical-offset="0" max-vertical-offset="0">
+          <caret line="10" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="677" selection-end="677" vertical-scroll-proportion="-1.4782609">
+        <state vertical-scroll-proportion="-1.4782609" vertical-offset="0" max-vertical-offset="0">
+          <caret line="14" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/nest5/Nest5Client/CompanyController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="616" column="22" selection-start="23087" selection-end="23101" vertical-scroll-proportion="20.001919">
+        <state vertical-scroll-proportion="20.001919" vertical-offset="0" max-vertical-offset="0">
+          <caret line="616" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="21" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.03954802">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2193">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="986">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1666">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="1122">
+          <caret line="54" column="90" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/nest5/Nest5Client/SecUser.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3406193" vertical-offset="0" max-vertical-offset="782">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -478,14 +1225,14 @@
         <entry key="Nest5Api">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-1612228580" />
-              <option name="pluginDependenciesCrc" value="-487942525" />
+              <option name="buildConfigCrc" value="-1949718033" />
+              <option name="pluginDependenciesCrc" value="1424461857" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="$USER_HOME$/.grails/2.2.0/global-plugins" />
-                  <entry key="grails.project.plugins.dir" value="$USER_HOME$/.grails/2.2.0/projects/Nest5Api/plugins" />
-                  <entry key="grails.project.work.dir" value="$USER_HOME$/.grails/2.2.0/projects/Nest5Api" />
-                  <entry key="grails.work.dir" value="$USER_HOME$/.grails/2.2.0" />
+                  <entry key="grails.global.plugins.dir" value="C:\Users\Juandavid\.grails\2.3.7\global-plugins" />
+                  <entry key="grails.project.plugins.dir" value="C:\Users\Juandavid\.grails\2.3.7\projects\Nest5Api\plugins" />
+                  <entry key="grails.project.work.dir" value="C:\Users\Juandavid\.grails\2.3.7\projects\Nest5Api" />
+                  <entry key="grails.work.dir" value="C:\Users\Juandavid\.grails\2.3.7" />
                 </map>
               </option>
             </GrailsSettings>
@@ -498,6 +1245,81 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.3.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Nest5Api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

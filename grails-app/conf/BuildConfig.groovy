@@ -49,23 +49,12 @@ grails.project.dependency.resolution = {
 
     plugins {
         //runtime ":hibernate:$grailsVersion"
-        compile ":hibernate4:4.3.4.2"
-        runtime ":resources:1.1.6"
-
-        // Uncomment these (or add new ones) to enable additional resources capabilities
-        //runtime ":zipped-resources:1.0"
-        //runtime ":cached-resources:1.0"
-        //runtime ":yui-minify-resources:0.1.4"
-
-        //build ":tomcat:$grailsVersion"
-        build ':tomcat:7.0.52.1'
-       // runtime ":database-migration:1.2.1"
-        runtime ":database-migration:1.3.8"
-        compile ':cache:1.0.1'
-        /*compile ":heroku:1.0.1"
-        compile ':cloud-support:1.0.8'*/
-        compile ':spring-security-core:1.2.7.3'
-        compile ":mail:1.0.1"
+        compile ":hibernate4:4.3.5.3"
+        runtime ":resources:1.2.8"
+        build ':tomcat:7.0.53'
+        compile ':cache:1.1.6'
+        compile ":spring-security-core:2.0-RC3"
+        compile ":mail:1.0.5"
 
     }
 }
